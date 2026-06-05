@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt-spa-template",
   "private": true,
   "type": "module",
   "scripts": {
