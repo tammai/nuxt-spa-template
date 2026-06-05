@@ -30,11 +30,11 @@ This is a **Nuxt 4** SPA (`ssr: false`). All application code lives under the `a
 **Layout structure** (`app/app.vue`):
 ```
 UApp
-  UHeader      ← logo + nav (left), color mode toggle + GitHub link (right)
+  UHeader      ← logo link (left), color mode toggle + GitHub link (right)
   UMain
     NuxtPage
-  USeparator
-  UFooter
+  USeparator   ← icon="i-simple-icons-nuxtdotjs"
+  UFooter      ← copyright text (left), GitHub link (right)
 ```
 
 **Icons:** Two Iconify sets — `lucide` and `simple-icons`. Use via `<UIcon name="i-lucide-..." />` or `<UIcon name="i-simple-icons-..." />`.
