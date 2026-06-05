@@ -1,0 +1,65 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+  --font-sans: "Google Sans", sans-serif;
+  --text-2xs: 0.625rem;
+}
+
+:root {
+  --ui-container: 90rem;
+}
+
+input::-ms-reveal {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--ui-color-neutral-200);
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--ui-color-neutral-400);
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ui-color-neutral-500);
+}
+
+body {
+  background-color: var(--ui-bg-muted);
+}
+
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4 {
+  font-weight: var(--font-weight-bold);
+}
+
+.heading-1 {
+  font-size: var(--text-4xl);
+  line-height: var(--text-4xl--line-height);
+}
+
+.heading-2 {
+  font-size: var(--text-3xl);
+  line-height: var(--text-3xl--line-height);
+}
+
+.heading-3 {
+  font-size: var(--text-2xl);
+  line-height: var(--text-2xl--line-height);
+}
+
+.heading-4 {
+  font-size: var(--text-xl);
+  line-height: var(--text-xl--line-height);
+}
